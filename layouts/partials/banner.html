@@ -1,0 +1,10 @@
+<!--
+  Overwrite the site banner by overwriting this file
+-->
+<header class="site-head">
+  <div class="header">
+    <h1>{{ .Site.Params.Author }}</h1>
+    <div class="meta">{{ .Site.Params.Description }}</div>
+    {{ partial "social.html" . }}
+  </div>
+</header>

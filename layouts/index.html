@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  {{ partial "head.html" . }}
+  <body>
+   <!--[if lt IE 8]>
+       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+   <![endif]-->
+  <!-- header -->
+  {{ partial "banner.html" . }}
+  <!-- post list -->
+  <main role="main" class="content">
+    <ul id="list" style="list-style-type: none;" class="posts">
+      {{ range where .Data.Pages "Section" "posts" }}
+      <li>
+        {{ .Render "summary"}}
+      </li>
+      {{ end }}
+    </ul>
+  </main>
+  {{ partial "scripts.html" . }}
+  </body>
+</html>

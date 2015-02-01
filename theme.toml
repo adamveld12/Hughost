@@ -1,0 +1,9 @@
+name = "HuGhost"
+license = "MIT"
+description = "A theme based off of John Oliver's blog"
+tags = ["blog", "company"]
+features = ["blog"]
+
+[author]
+    name = "Adam Veldhousen"
+    homepage = "http://words.veldhousen.ninja"
