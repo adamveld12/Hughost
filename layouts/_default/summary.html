@@ -1,0 +1,11 @@
+<article class="post">
+  <header>
+    <span class="meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <h2>
+      <a href='{{ .Permalink }}'> {{ .Title }}</a>
+    </h2>
+  </header>
+  <section class="excerpt">
+    {{ .Summary }}
+  </section>
+</article>
