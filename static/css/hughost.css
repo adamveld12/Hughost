@@ -55,6 +55,17 @@ a:hover {
   color: white;
 }
 
+.site-head a {
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+  color: white;
+  text-decoration: none;
+}
+
+.site-head a:hover {
+  color: #8AF;
+}
+
 .site-head h1 {
   font-size: 3rem;
   margin: 0;
