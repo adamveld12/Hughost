@@ -51,3 +51,13 @@
 .post-home h1 {
   font-size: 5rem;
 }
+
+.post .content a {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  color: #444;
+}
+.post .content a:hover {
+  border-bottom-style: none;
+  color: #36A;
+}
